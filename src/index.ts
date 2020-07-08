@@ -6,8 +6,5 @@ const user = new User
 const company = new Company
 const custommap = new CustomMap('map')
 
-custommap.addUserMarker(user)
-custommap.addCompanyMarker(company)
-
-
-
+custommap.addMarker(user)
+custommap.addMarker(company)
